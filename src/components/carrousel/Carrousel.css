@@ -1,0 +1,49 @@
+.background-slider {
+   font-family: 'Bebas Neue', cursive;
+   width: 100%;
+   height: 420px;
+   background-color: #ff0000; 
+   background-size: 125%;
+   background-repeat: no-repeat;
+   background-position: center left;
+   mask-image: linear-gradient(to top right, transparent 49.5%, white 50.5%), linear-gradient(white, white);
+   mask-size: 100% 25%, 100% 75%;
+   mask-position: bottom left, top left;
+   mask-repeat: no-repeat;
+}
+.background-slider h2{
+   color: #ffffff;
+   padding: 65px 0 0;
+}
+.background-slider button{
+   display: none!important;
+}
+
+.item{
+   padding: 5px;
+}
+.item .box-image{
+   border: 1px solid #b3b3b3;
+   border-radius: 14px;
+}
+.item .box-image img{
+   width: auto;
+   height: 150px;
+   object-fit: cover;
+   object-position: 20% 0; 
+   border: 5px solid #ffffff;
+   border-radius: 14px;
+}
+.item h5{
+   color: #000000;
+   background-color: #ffffff;
+   border-radius: 10px;
+   margin-top: 10px;
+   text-align: center;
+   padding: 2px 0;
+}
+
+  
+  
+
+  

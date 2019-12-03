@@ -1,0 +1,19 @@
+.navbar{
+   z-index: 1;
+}
+.logo{
+   /*filter: grayscale(50%) brightness(50);*/
+}
+
+@media (min-width: 1024px) {
+   .logo {
+      filter: initial;
+   }
+   .navbar{
+      position: relative;
+   }
+   .navbar-nav{
+      position: absolute;
+      right: 0;
+   }
+}

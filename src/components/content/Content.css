@@ -1,0 +1,67 @@
+.content p{
+  padding: 10px 20px;
+}
+
+.shape-left{
+  float: left;
+  width: 50%;
+  height: 135px;
+  shape-outside: polygon(0px 100%, 0px 90px, 100% 100%);
+  shape-margin: 10px;
+}
+
+.shape-right {
+  float: right;
+  width: 50%;
+  height: 70px;
+  shape-outside: polygon(0px 0px, 100% 0px, 100% 70px);
+  shape-margin: 10px;
+}
+
+.text{
+  position: relative;
+  top: -30px;
+  line-height: 20px;
+}
+
+.content-image {
+  width: 100%;
+  height: 300px;
+  background-image: url(../../images/adventure-blur-cellphone-2765873.jpg);
+  background-size: 125%;
+  background-repeat: no-repeat;
+  background-position: center left;
+  margin-top: -80px;
+  mask-image: linear-gradient(to bottom left, transparent 49.5%, white 50.5%), linear-gradient(white, white);
+  mask-size: 100% 30%, 100% 70%;
+  mask-position: top right, bottom left;
+  mask-repeat: no-repeat;
+}
+
+
+@media (min-width: 1024px) {
+   .content-image {
+      width: 50%;
+      height: 500px;
+      background-image: url(../../images/adventure-blur-cellphone-2765873.jpg);
+      background-size: 125%;
+      background-repeat: no-repeat;
+      background-position: center left;
+      margin-top: -80px;
+      mask-image: linear-gradient(to bottom left, transparent 49.5%, white 50.5%), linear-gradient(white, white);
+      mask-size: 100% 30%, 100% 70%;
+      mask-position: top right, bottom left;
+      mask-repeat: no-repeat;
+   }
+
+   .content p {
+      padding: 10px 20px;
+      width: 50%;
+      float: right;
+      position: relative;
+      top: 200px;
+   }
+
+}
+
+
